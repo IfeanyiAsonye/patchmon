@@ -51,7 +51,7 @@ services:
     environment:
       LOG_LEVEL: info
       DATABASE_URL: postgresql://patchmon_user:patchmon@database:5432/patchmon_db
-      JWT_SECRET: df89bfe36403658b70876184c1f79f2fa27237db3d0df9494c4e7fb5e6e15059fa24fe5a9004666561018a739320dd01329f55197ee28a4ceb09210424160c6b
+      JWT_SECRET: "google to check how to generate JWT secrete"
       SERVER_PROTOCOL: http
       SERVER_HOST: localhost
       SERVER_PORT: 3000
